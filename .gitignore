@@ -1,0 +1,20 @@
+# Virtual environment files (non caricare su GitHub)
+bin/
+lib/
+lib64/
+include/
+pyvenv.cfg
+.venv/
+venv/
+
+# File di output e log locali dello scraper
+scraper_progress.txt
+found_urls.txt
+
+# Python cache ed eventuali file temporanei
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.DS_Store
